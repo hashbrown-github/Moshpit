@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>:: Login ::</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="css/vendors.bundle.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.bundle.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/intlInputPhone.min.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+</head>
+<body class="alignChange">
+
+<!-- START FORM -->
+<section class="logInArea">
+    <div class="logo">
+        <a href="#">
+            <img class="img-fluid" src="images/logo.png" alt="logo" />
+        </a>
+    </div>
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> Indicates a successful or positive action.
+    </div>
+    
+    <div class="logOuter">
+        <div class="users">
+            <div class="form">
+                <div class="logIn">
+                    <h2>Login</h2>
+                    <p>Sait depuis longtemps que travailler avec du texte lisible</p>
+                </div>
+                <div class="log_2">
+                    <div class="formLeftSelect">
+                        <div class="input-phone"></div>
+                    </div>
+                    <div class="formRight">
+                        <div class="form-group">
+                            <input name="Phone Number" class="form-control" required="required" type="text">
+                            <label placeholder="Phone Number"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="btnLog">
+                    <button class="btn btnTheme btn-block" type="submit">Get OTP</button> 
+                </div>
+            </div>
+        </div>
+        <div class="logInRight">
+            <div class="logInRightInner">
+                <a href="#">
+                    <img class="img-fluid" src="images/map.png" alt="logo" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END FORM -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/intlInputPhone.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.input-phone').intlInputPhone();
+        })
+    </script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- 
+    <script>
+        $(document).ready(function(){
+        $(".users .form input").click(function(){
+            $(".users .form label.control-label").addClass("newLabel");
+        });
+        });
+    </script>
+    -->
+
+</body>
+</html>
