@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (max-width: 1900px) { 
+    .lightbox img { height: 220px; }
+}
+
+@media (max-width: 1366px) {
+    .m-grid.m-grid--ver-desktop.m-grid--desktop>.m-grid__item.m-grid__item--fluid { width: calc(100% - 280px); }
+    /* START activityMain */
+    .activityGridsInner { width: calc(33.33% - 20px); }
+    .activityMain .tableAll .table td:nth-child(3) { min-width: 190px; }
+    .activityMain .tableAll .table td:nth-child(4) { min-width: 130px; }
+    .activityMain .tableAll .table td:nth-child(5) { min-width: 250px; }
+    .activityMain .tableAll .table td:nth-child(6) { min-width: 130px; }
+    .activityMain .tableAll .table td:nth-child(7) { min-width: 180px; }
+    .activityMain .tableAll .table td:nth-child(8) { min-width: 130px; }
+    /* END activityMain */
+}
+
+@media (max-width: 1199px) {
+    .activityGridsInner { width: calc(50% - 20px); }
+    .lightbox img { height: 250px; }
+}
+
+@media (max-width: 992px) {
+    /* START Default */
+    .m-grid.m-grid--ver-desktop.m-grid--desktop>.m-grid__item.m-grid__item--fluid { width: 100%; }
+    .m-header--fixed .m-header { display: block; }
+    .md_mainContent { padding-top: 0; }
+    .m-body .m-wrapper { margin-left: 0; }
+    .m-body .savoline_sidebar.md_mainSidebar { box-shadow: 13px 0 20px rgb(0 0 0 / 23%); -webkit-box-shadow: 13px 0 20px rgb(0 0 0 / 23%); -moz-box-shadow: 13px 0 20px rgb(0 0 0 / 23%); }
+    .md_mainSidebar.open { left: 0; }
+    /* END Default */
+
+    .logo { left: 30px; top: 30px; }
+    .users { width: 50%; padding: 100px 30px 30px; }
+    .logInRight { width: 50%; padding: 0; }
+}
+
+@media (max-width: 767px) {
+    /* START Default */
+    .inner_content { padding: 15px; }
+    .md_filters_box1 { width: calc(100% - 100px); }
+    .md_filters_box2 { width: 100px; }
+    /* END Default */
+
+    .users { width: 100%; order: 2; padding: 70px 15px; }
+    .logInRight { width: 100%; order: 1; padding: 50px 0 0; }
+    .formRight { width: calc(100% - 90px); }
+    .logo { left: 20px; top: 20px; }
+
+}
+
+@media (max-width: 575px) {
+    /* START Default */
+    .m-body .m-content { padding: 20px 15px; }
+    .inner_content, .inner_content1 { width: 100%; }
+    /* END Default */
+    .activityGridsInner { width: 100%; }
+    .tabAreaHome .nav-tabs li a { padding: 10px 35px; }
+    .lightbox img { height: auto; }
+}
+
+@media (max-width: 480px) {
+    /* START Default */
+    .eikaebana-logo img { width: 160px; }
+    .m-aside-left { width: 260px; padding: 15px; }
+    .m-stack.m-stack--general { padding-bottom: 15px; margin-bottom: 15px; text-align: left; }
+    /* END Default */
+    .tabAreaHome .nav-tabs li { margin: 0 0 2px !important; width: 100%; }
+    .tabAreaHome .nav-tabs li:last-child { margin: 0; }
+    .tabAreaHome .nav-tabs li a { padding: 10px 15px; background: #eeeef0; border: none; border-radius: 4px; border-radius: 0; }
+    .tabAreaHome .nav-tabs .nav-item.show .nav-link, .tabAreaHome .nav-tabs .nav-link.active { background: #373A47; border: none; color: #fff; font-family: 'Proxima Nova RG'; }
+    .tabAreaHome .nav-tabs li a:hover, .tabAreaHome .nav-tabs li a:focus { background: #373A47; color: #fff; font-family: 'Proxima Nova RG'; }
+
+    .users { padding: 50px 15px 60px;  }
+}
+
+@media (max-width: 375px) {
+
+}
+
