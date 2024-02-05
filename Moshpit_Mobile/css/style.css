@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'Proxima-Nova-Regular';
+    src: url('../fonts/Proxima-Nova-Regular.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Medium';
+    src: url('../fonts/Proxima-Nova-Medium.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Semibold';
+    src: url('../fonts/Proxima Nova Semibold.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Bold';
+    src: url('../fonts/Proxima-Nova-Bold.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 16px; font-family: 'Proxima-Nova-Regular'; line-height: 22px; color: #000; }
+a, a:focus, a:focus-visible, :focus, a:hover { outline: none; text-decoration: none; cursor: pointer; }
+
+/* START HEADER */
+header { min-height: 70px; width: 100%; background: #fff; box-shadow: 0 2px 10px rgb(0 0 0 / 11%); position: relative; }
+.navbar-default { background-color: transparent; border: none; }
+.navbar { min-height: 45px; background: transparent !important; }
+.navbar-brand { height: auto; margin: 0; padding: 15px 15px 15px 0; }
+.navbar-brand>img { width: 57px; }
+/* END HEADER */
+
+/* START termsMain */
+.termsMain { padding: 70px 0 40px; }
+.termsInner { margin: 0 0 30px; }
+.termsInner h1 { margin: 0 0 15px; font-size: 40px; line-height: 53px; font-family: 'Proxima-Nova-Bold'; display: inline-block; width: 100%; }
+.termsInner h2 { margin: 0 0 15px; font-size: 24px; line-height: 32px; font-family: 'Proxima-Nova-Bold'; border-left: 3px solid #373a47; padding: 7px 10px 8px; background: #f4f4f4; 
+display: inline-block; width: 100%; }
+.termsInner p { margin: 0 0 10px; font-size: 16px; line-height: 22px; font-family: 'Proxima-Nova-Regular'; display: inline-block; width: 100%; }
+.termsInner p span.under { text-decoration: underline; }
+/* END termsMain */
